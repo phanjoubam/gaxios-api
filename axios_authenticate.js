@@ -3,7 +3,7 @@ const { google } = require('googleapis');
 
 const auth = new GoogleAuth({
 
-  keyFile: './snappy-weft-server-to-server-interacttion.json',
+  keyFile: './keys/snappy-weft-server-to-server-interacttion.json',
   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });
 
